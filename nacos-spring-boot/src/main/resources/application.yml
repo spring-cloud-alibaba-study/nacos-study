@@ -1,0 +1,9 @@
+# 应用名称
+spring:
+  application:
+    name: nacos-spring-boot
+nacos:
+  config:
+    server-addr: 60.205.230.70:8848
+    data-id: nacos-spring-boot
+    auto-refresh: true
