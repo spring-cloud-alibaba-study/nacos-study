@@ -8,11 +8,12 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "my.test")
-@NacosConfigurationProperties(prefix = "my.test", dataId = "nacos-spring-boot",
+@ConfigurationProperties(prefix = TestProperties.TEST_PRO_KEY)
+@NacosConfigurationProperties(prefix = TestProperties.TEST_PRO_KEY, dataId = "nacos-spring-boot",
         type = ConfigType.YAML, autoRefreshed = true)
 public class TestProperties {
 
+    public static final String TEST_PRO_KEY = "my.test";
     private String appId;
 
     private String userName;
