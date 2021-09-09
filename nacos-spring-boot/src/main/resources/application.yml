@@ -7,3 +7,4 @@ nacos:
     server-addr: 60.205.230.70:8848
     data-id: nacos-spring-boot
     auto-refresh: true
+    type: yaml
