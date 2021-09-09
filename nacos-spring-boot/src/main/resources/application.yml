@@ -8,3 +8,8 @@ nacos:
     data-id: nacos-spring-boot
     auto-refresh: true
     type: yaml
+my:
+  test:
+    appId: testAppId
+    userName: appid
+    password: appid

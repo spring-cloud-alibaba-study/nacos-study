@@ -15,6 +15,6 @@ public class ConfigController {
 
     @GetMapping(value = "/get")
     public String get() {
-        return testProperties.getAppId() + "：" + useLocalCache;
+        return testProperties.toString() + "：" + useLocalCache;
     }
 }
