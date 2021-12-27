@@ -15,12 +15,12 @@
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>nacos-config-spring-boot-starter</artifactId>
-            <version>0.2.6</version>
+            <version>0.2.10</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.spring</groupId>
             <artifactId>spring-context-support</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.11</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
