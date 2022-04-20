@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ConfigController {
-    @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
-    private boolean useLocalCache;
+//    @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
+//    private boolean useLocalCache;
     @Autowired
     private TestProperties testProperties;
 
     @GetMapping(value = "/get")
     public String get() {
-        return testProperties.toString() + "：" + useLocalCache;
+        return testProperties.toString() + "：";
     }
 }

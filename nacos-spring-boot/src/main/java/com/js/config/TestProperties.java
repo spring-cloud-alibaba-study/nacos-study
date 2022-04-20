@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = TestProperties.TEST_PRO_KEY)
 @NacosConfigurationProperties(prefix = TestProperties.TEST_PRO_KEY, dataId = "nacos-spring-boot",
-        type = ConfigType.YAML, autoRefreshed = true)
+        type = ConfigType.YAML, autoRefreshed = true,groupId = "operation")
 public class TestProperties {
 
     public static final String TEST_PRO_KEY = "my.test";

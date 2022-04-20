@@ -8,6 +8,9 @@ nacos:
     data-id: nacos-spring-boot
     auto-refresh: true
     type: yaml
+    bootstrap:
+      enable: true
+    group: operation
 my:
   test:
     appId: testAppId
