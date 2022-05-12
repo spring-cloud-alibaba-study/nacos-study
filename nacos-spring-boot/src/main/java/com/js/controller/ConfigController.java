@@ -3,7 +3,6 @@ package com.js.controller;
 import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.js.config.TestProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
