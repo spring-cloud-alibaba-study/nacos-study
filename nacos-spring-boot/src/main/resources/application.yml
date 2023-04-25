@@ -13,6 +13,31 @@ nacos:
       enable: true
     group: operation
     namespace: operation
+#    ext-config:
+#      - serverAddr: 123
+#        endpoint: 123
+#        namespace: 1234
+#        access-key: 123456
+#        type: yaml
+#        data-id: endpoint
+
+#      mysql :
+#      private java.lang.String serverAddr;
+#      private java.lang.String endpoint;
+#      private java.lang.String namespace;
+#      private java.lang.String accessKey;
+#      private java.lang.String secretKey;
+#      private java.lang.String ramRoleName;
+#      private java.lang.String dataId;
+#      private java.lang.String dataIds;
+#      private java.lang.String group;
+#      private java.lang.String maxRetry;
+#      private java.lang.String configLongPollTimeout;
+#      private java.lang.String configRetryTime;
+#      private boolean autoRefresh;
+#      private boolean enableRemoteSyncConfig;
+#      private java.lang.String username;
+#      private java.lang.String password;
 my:
   test:
     appId: testAppId
